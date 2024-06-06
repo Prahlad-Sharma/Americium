@@ -1,0 +1,828 @@
+
+
+.sub-title,
+.text,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Nunito", sans-serif;
+}
+
+.address-widget .desc-widget-title,
+.breadcumb-menu li,
+.fintech-megamenu-list a,
+.header-socials a,
+.quota-arrow,
+.view-btn,
+img {
+    display: inline-block
+}
+
+#header,
+.service-awards-img,
+a {
+    transition: .5s ease-in-out
+}
+
+a,
+button {
+    cursor: pointer
+}
+
+.award_wrapper,
+.footer-awards {
+    overflow: hidden
+}
+
+:root {
+    --bs-orange: #F58634;
+    --bs-light-orange: #FF6F04;
+    --bs-dark-orange: #ae500a;
+    --bs-rgb-orange: rgba(255, 111, 4, .9);
+    --bs-orange-primary: #FF791B;
+    --bs-orange-secondary: #FAE3D2;
+    
+    --bs-red: #fe0303;
+    --bs-gray-primary: #E3E3E3;
+    --bs-gray-secondary: #F9F7F7;
+    --bs-gray-dark-bg: #f0f0f0;
+    
+    --bs-service-gray: #949494;
+    --bg-gray: #E8E8E8;
+    --bd-gray-border: #C8C8C8;
+ 
+    --bs-font-sans: "Resolve Sans";
+    --ez-icon-family: EzulixIcon;
+    --bs-gradient: linear-gradient(90deg, var(--bs-orange), var(--bs-light-orange));
+    --bs-gradient-secondary: linear-gradient(90deg, var(--bs-orange) 0%, var(--bs-light-orange) 43%, var(--bs-danger) 100%);
+    --bs-multi-gradient: linear-gradient(90deg, var(--bs-light-orange) 0%, var(--bs-danger) 51%, var(--bs-light-orange) 100%);
+    --bs-gradient-verical: linear-gradient(0deg, var(--bs-orange), var(--bs-light-orange));
+    --color-gray: #1e1e1e
+}
+
+* {
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-size: 100%
+}
+
+body {
+    font-size: 18px;
+    color: #787878;
+    background: var(--bs-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased
+}
+
+a {
+    text-decoration: none
+}
+
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    outline: 0
+}
+
+.desc-contact:hover,
+.desc-mail:hover,
+a:hover {
+    color: var(--bs-primary)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+.contact-info,
+.mega-menu a,
+.text,
+p {
+    font-size: 16px
+}
+
+button {
+    outline: 0
+}
+
+p {
+    line-height: 1.42857143;
+    color: #373737
+}
+
+img,
+svg {
+    vertical-align: middle
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.menu-nav li,
+ul li {
+    list-style: none
+}
+
+.inner-header-wrap .theme-brand-logo,
+.z_index1 {
+    z-index: 1
+}
+
+.company-contact-info:hover,
+.contact-info:hover,
+.ezulix-favi_icons,
+.footer-social a,
+.text-white {
+    color: var(--bs-white)
+}
+
+.text-black {
+    color: var(--bs-black)
+}
+
+.fintech-megamenu-list a:hover,
+.header-socials a a,
+.mega-menu a,
+.mega-sub-menu li a,
+.text-black-gray {
+    color: var(--bs-black-gray)
+}
+
+.border_50 {
+    border-radius: 50%
+}
+
+.sub-title {
+    color: var(--bs-light-orange);
+    font-weight: 350;
+    font-size: 22px
+}
+
+.section-margin {
+    margin-bottom: 55px
+}
+
+.heading-shape {
+    height: 9px;
+    width: 174px;
+    border-radius: 10px;
+    margin-top: 7px
+}
+
+.view-btn,
+.view-btn:hover {
+    border: 2px solid var(--bs-orange);
+    color: var(--bs-white)
+}
+
+.orange-secion,
+.shape-orange {
+    background: var(--bs-light-orange)
+}
+
+#header:hover,
+.shape-black,
+.sticky-header {
+   
+}
+
+.shape-white {
+    background: var(--bs-white)
+}
+
+.gray-secion {
+    background: var(--bs-black-gray)
+}
+
+.bg-gray-dark {
+    background: var(--bs-gray-dark-bg)
+}
+
+.section-padding {
+    padding: 70px 0 50px
+}
+
+.fw-thin {
+    font-weight: 100
+}
+
+.fw-ultralight {
+    font-weight: 200
+}
+
+.fw-extralight {
+    font-weight: 250
+}
+
+.fw-light {
+    font-weight: 300
+}
+
+.fw-semilight,
+.menu-nav li a {
+    font-weight: 350
+}
+
+.fw-regular {
+    font-weight: 400
+}
+
+.fw-medium {
+    font-weight: 500
+}
+
+.demo-btn a,
+.fw-semibold {
+    font-weight: 600
+}
+
+.fw-bold {
+    font-weight: 700
+}
+
+.fw-extrabold {
+    font-weight: 800
+}
+
+.fw-black {
+    font-weight: 900
+}
+
+.view-btn {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    margin-top: 20px
+}
+
+.view-btn:hover {
+    background: var(--bs-orange);
+    letter-spacing: 2.5px
+}
+.text-center h3{
+    color: black;
+}
+.img-fl img{
+    width: 50px;
+    height: 350px;
+}
+
+.fs-48 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-45 {
+    font-size: calc(36px + (45 - 36) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-42 {
+    font-size: calc(34px + (42 - 34) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-40 {
+    font-size: calc(32px + (40 - 32) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-38 {
+    font-size: calc(32px + (38 - 32) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-35 {
+    font-size: calc(30px + (35 - 30) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-32 {
+    font-size: calc(26px + (32 - 26) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-30 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-28 {
+    font-size: calc(24px + (28 - 24) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-26 {
+    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-24 {
+    font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-23 {
+    font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-22 {
+    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-21 {
+    font-size: calc(18px + (21 - 18) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-20 {
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-18 {
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1920 - 300)))
+}
+
+.fs-16 {
+    font-size: calc(16px + (16 - 16) * ((100vw - 300px) / (1920 - 300)))
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes zoomOut {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(-1, -1, -1);
+        transform: scale3d(-1, -1, -1)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    padding: 15px 0
+}
+
+.header-logo img {
+    width: 130px
+}
+
+.inner-header-wrap .indian-flag-logo {
+    position: absolute;
+    transform: rotate(19deg);
+    width: 30px;
+    right: 15px;
+    top: -10px
+}
+
+@media (min-width:576px) {
+    .inner-header-wrap .indian-flag-logo {
+        width: 33px;
+        right: 18px;
+        top: -10px
+    }
+}
+
+@media (min-width:768px) {
+    .inner-header-wrap .indian-flag-logo {
+        width: 38px;
+        right: 27px;
+        top: -9px
+    }
+}
+
+.menu-navbar {
+    align-items: center
+}
+
+.banner-content-wrapper .col-lg-6:nth-child(2),
+.header-section input,
+.header-socials a:last-child::after,
+.menu-nav .mobile-item,
+.single-megamenu:last-child::after {
+    display: none
+}
+
+.menu-navbar .menu-nav {
+    display: inline-flex
+}
+
+.menu-navbar .btn {
+    color: var(--bs-white);
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    right: -111px
+}
+
+.menu-navbar .btn.close-btn {
+    position: absolute;
+    right: 1px;
+    top: 30px;
+    background: var(--bs-primary);
+    border-radius: 51%;
+    padding: 2px;
+    width: 35px;
+    height: 35px
+}
+
+.menu-nav li a {
+    transition: .3s
+}
+
+.header-socials a:hover,
+.mega-sub-menu li a:hover,
+.nav-link:focus,
+.nav-link:hover,
+.single-megamenu a:hover,
+.social-media a:hover {
+    color: var(--bs-orange)
+}
+
+.dropdown-nav::after {
+    content: "\ea3e";
+    font-family: var(--ez-icon-family);
+    top: 3px;
+    position: relative
+}
+
+.nav-link,
+.quota-link {
+    font-size: 18px
+}
+
+.mega-menu {
+    position: absolute;
+    width: 960px;
+    top: 110px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .05s ease-in
+}
+
+.demo-btn {
+    left: -38%
+}
+
+.dot-shape,
+.ezulix-dot-shape {
+    z-index: 0;
+    left: -17px;
+    position: absolute
+}
+
+.demo-btn a {
+    background: var(--bs-gradient-secondary);
+    padding: 10px;
+    border-radius: 9px;
+    color: var(--bs-white);
+    font-size: 12px;
+    background-size: 200% auto;
+    top: -2px
+}
+
+.demo-btn a:hover {
+    background-position: right center
+}
+
+.mega-menu-container {
+    background: var(--bs-gray-primary);
+    padding: 0 0 0 12px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.header-megamenu-right,
+.quota-arrow {
+    background: var(--bs-gradient)
+}
+
+.megamenu-block {
+    padding-top: 20px
+}
+
+.single-megamenu {
+    width: calc(50% - 0px)
+}
+
+.single-megamenu::after {
+    background: var(--bs-white);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: 31px;
+    content: "";
+    top: 0
+}
+
+.single-megamenu .menu-title {
+    color: var(--bs-orange);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 10px;
+    padding-bottom: 10px
+}
+
+.mega-sub-menu li a {
+    font-size: 16px;
+    display: block;
+    line-height: 16px;
+    margin: 5px 0;
+    transition: .5s ease-in-out;
+    width: fit-content
+}
+
+.company-contact-title,
+.company-megamenu p,
+.contact-title {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 350
+}
+
+.menu-nav li:hover .mega-menu {
+    transition: .3s;
+    top: 89px;
+    opacity: 1;
+    visibility: visible
+}
+
+.expertise-solution-menu:nth-child(2) a {
+    padding-bottom: 2px
+}
+
+.company-megamenu-wrap a:hover,
+.expertise-solution-menu a:hover,
+.fintech-package:hover,
+.industry-menu:hover,
+.multi-mega_submenu a:hover,
+.single-fintech:hover {
+    padding-left: 5px
+}
+
+.company-megamenu {
+    right: auto;
+    width: 700px
+}
+
+.company-container-megamenu .single-megamenu {
+    width: calc(100% - 0px);
+    padding-top: 20px
+}
+
+.company-menu {
+    margin: 15px 0;
+    height: 65px
+}
+
+.company-menu i:first-child {
+    z-index: 1;
+    transition: .5s;
+    color: var(--bs-orange);
+    width: 60px
+}
+
+.company-menu i:nth-child(2) {
+    transition: .5s;
+    color: var(--bd-gray-border);
+    width: 50px;
+    font-size: 28px;
+    margin-left: -34px;
+    bottom: -9px
+}
+
+.company-menu .ezulix-aboutus {
+    font-size: 40px
+}
+
+.company-menu .ezulix-blog {
+    font-size: 50px
+}
+
+.company-menu i:first-child.ezulix-attendance {
+    font-size: 38px
+}
+
+.company-menu .ezulix-career {
+    font-size: 47px
+}
+
+.megamenu-right {
+    height: 100%;
+    padding: 30px 18px 24px
+}
+
+.company-megamenu p {
+    padding-bottom: 15px
+}
+
+.ezulix-dot-shape {
+    width: 150px;
+    top: 40px;
+    opacity: .4
+}
+
+.company-megamenu-bottom a {
+    display: inline-block;
+    padding: 0 10px
+}
+
+.company-megamenu-bottom a:first-child::after {
+    content: "";
+    background: var(--bs-black-gray);
+    width: 2px;
+    height: 17px;
+    position: absolute;
+    top: 4px;
+    right: 0
+}
+
+.expertise-solution-menu li a {
+    margin: 7px 0
+}
+
+.header-socials {
+    border-top: 2px solid var(--bs-white);
+    padding: 5px 0 10px;
+    margin-top: 10px;
+    line-height: normal
+}
+
+.awards-box,
+.awards-box:last-child {
+    border: 1px solid var(--bs-service-gray)
+}
+
+.social-title {
+    color: var(--bs-orange);
+    font-weight: 350;
+    line-height: 30px;
+    font-size: 18px
+}
+
+.header-socials a {
+    position: relative;
+    margin: 0 20px 0 0;
+    line-height: 20px
+}
+
+.header-socials a:last-child {
+    margin-right: 0
+}
+
+.header-socials a::after {
+    background: var(--bs-white);
+    width: 1px;
+    height: 17px;
+    position: absolute;
+    right: -11px;
+    top: 3px;
+    content: ""
+}
+
+.header-socials a a {
+    font-size: 14px
+}
+
+.right-top-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.right-megamenu-content {
+    padding: 50px 0 0 10px
+}
+
+.right-top-text {
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18px
+}
+
+.right-megamenu-img {
+    padding-top: 15px
+}
+
+.dot-shape {
+    width: 106px;
+    top: 0
+}
+
+.free-btn {
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    left: 0
+}
+
+.free-btn:hover {
+    color: var(--bs-black);
+    letter-spacing: .5px
+}
+
+.quota-arrow {
+    color: var(--bs-white);
+    margin-left: 7px;
+    padding: 5px;
+    position: relative;
+    top: 2px
+}
+
+.single-fintech-megamenu::after {
+    height: 90%;
+    top: auto;
+    bottom: 0
+}
+
+.fintech-subheading-border {
+    position: relative;
+    padding-bottom: 4px;
+    font-size: 22px
+}
+
+.fintech-subheading-border::before {
+    background: var(--bs-light-orange);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    content: "";
+    bottom: 0
+}
+
+.fintech-submenu-software-image {
+    width: 70px;
+    padding-right: 10px
+}
+
+.fintech-megamenu-subdropdown a {
+    width: 50%;
+    float: left
+}
+
+.single-fintech-megamenu a {
+    height: 55px
+}
+
+.fintech-megamenu-subdropdown i {
+    padding-right: 15px;
+    font-size: 40px;
+    z-index: 1;
+    transition: .5s;
+    color: var(--bs-orange);
+    width: 70px
+}
+
+.single-fintech .ezulix-bbps-menu,
+.single-fintech .ezulix-vehicle-rc-verifitation-api {
+    font-size: 34px
+}
+
+.footer-social a .ezulix-youtube-play,
+.single-fintech .ezulix-uti-menu,
+.single-fintech .ezulix-voter-id-verification {
+    font-size: 30px
+}
+
+.single-fintech .ezulix-cibil-score-menu {
+    font-size: 28px
+}
+
+.explore-info {
+    line-height: normal;
+    padding: 25px 0 25px 23px
+}
+
+.explor-title.text-white {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 4px
+}
+
+.explore-info p {
+    font-size: 14px;
+    font-weight: 350
+}
+
